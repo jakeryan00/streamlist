@@ -1,0 +1,63 @@
+.page h1 {
+  color: white;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #101820;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1f2937;
+  padding: 15px 30px;
+}
+
+.navbar h2 {
+  color: #38bdf8;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #38bdf8;
+}
+
+.page {
+  padding: 40px;
+  text-align: center;
+}
+
+.form {
+  margin-top: 25px;
+}
+
+input {
+  padding: 12px;
+  width: 280px;
+  border-radius: 6px;
+  border: none;
+  margin-right: 10px;
+}
+
+button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 6px;
+  background: #38bdf8;
+  color: #101820;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0ea5e9;
+}
