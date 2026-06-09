@@ -61,3 +61,62 @@ button {
 button:hover {
   background: #0ea5e9;
 }
+.list-section {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.empty-message {
+  color: #cbd5e1;
+  font-style: italic;
+}
+
+.stream-list {
+  list-style: none;
+  padding: 0;
+  width: 600px;
+  max-width: 90%;
+}
+
+.item {
+  background: #1f2937;
+  margin-bottom: 12px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.completed span {
+  text-decoration: line-through;
+  color: #94a3b8;
+}
+
+.item-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.icon-button {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: none;
+  background: #38bdf8;
+  color: #101820;
+  cursor: pointer;
+}
+
+.icon-button:hover {
+  background: #0ea5e9;
+}
+
+.delete {
+  background: #f87171;
+}
+
+.delete:hover {
+  background: #ef4444;
+}
