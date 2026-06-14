@@ -8,6 +8,7 @@ function Navbar() {
         <Link to="/">StreamList</Link>
         <Link to="/movies">Movies</Link>
         <Link to="/cart">Cart</Link>
+        <Link to="/search">Movie Search</Link>
         <Link to="/about">About</Link>
       </div>
     </nav>

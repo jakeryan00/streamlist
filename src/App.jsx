@@ -6,6 +6,7 @@ import StreamList from "./components/StreamList";
 import Movies from "./components/Movies";
 import Cart from "./components/Cart";
 import About from "./components/About";
+import MovieSearch from "./components/MovieSearch";
 import "./App.css";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/movies" element={<Movies />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/about" element={<About />} />
+        <Route path="/search" element={<MovieSearch />} />
       </Routes>
     </BrowserRouter>
   );

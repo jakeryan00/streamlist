@@ -120,3 +120,37 @@ button:hover {
 .delete:hover {
   background: #ef4444;
 }
+.movie-grid {
+  margin: 35px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  width: 90%;
+}
+
+.movie-card {
+  background: #1f2937;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: left;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.movie-card h3 {
+  color: #38bdf8;
+}
+
+.no-poster {
+  height: 320px;
+  background: #334155;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  color: white;
+}
